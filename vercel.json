@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "name": "myfastapi-v2",
+  "functions": {
+    "index.js": {
+      "memory": 128,
+      "maxDuration": 60
+    }
+  },
+  "rewrites": [
+    { "source": "/(.*)", "destination": "index" }
+  ],
+  "trailingSlash": false
+}
